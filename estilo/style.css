@@ -41,7 +41,8 @@ main > section {
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
-    width: 92%;
+    position: relative;
+    width: 800px;
 }
 
 main > section > a {
