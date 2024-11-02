@@ -35,6 +35,12 @@ header > h2 {
     padding: 15px;
 }
 
+main {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
 main > section {
     background-color: white;
     color: black;
@@ -42,7 +48,7 @@ main > section {
     border: 2px solid black;
     padding: 25px;
     position: relative;
-    width: 800px;
+    width: 92%;
 }
 
 main > section > a {
