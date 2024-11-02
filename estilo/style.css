@@ -18,6 +18,10 @@ body {
     background-color: var(--cor5);
 }
 
+header, main section, footer {
+    width: 93vw;
+}
+
 header > h1 {
     background-color: var(--cor1);
     color: var(--cor6);
