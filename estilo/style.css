@@ -16,6 +16,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--cor5);
+    max-width: 95vw;
+    margin: auto;
 }
 
 header > h1 {
@@ -39,7 +41,7 @@ main > section {
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
-    width: 92vw;
+    width: 92%;
 }
 
 main > section > a {
