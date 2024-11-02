@@ -1,0 +1,71 @@
+:root {
+    --cor1: #010BF5;
+    --cor2: #528AF2;
+    --cor3: #8152F2;
+    --cor4: #5258F2;
+    --cor5: #52BDF2;
+    --cor6: #B552F2;
+    --cor7: yellow;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--cor5);
+}
+
+header > h1 {
+    background-color: var(--cor1);
+    color: var(--cor6);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 25px;
+    width: 98vw;
+}
+
+header > h2 {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-align: center;
+    padding: 15px;
+    width: 98vw;
+}
+
+main > section {
+    background-color: white;
+    color: black;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 25px;
+    width: 92vw;
+}
+
+main > section > a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+main > section > a:hover {
+    background-color: var(--cor7);
+    color: var(--cor1);
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+main > section > a.enfeite::after {
+    content: '\00A0\1F517';
+}
+
+footer > p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
