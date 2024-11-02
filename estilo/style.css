@@ -39,8 +39,7 @@ section {
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
-    position: relative;
-    width: 92%;
+    width: 92vw;
 }
 
 section > a {
