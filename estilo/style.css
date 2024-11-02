@@ -36,9 +36,11 @@ header > h2 {
 section {
     background-color: white;
     color: black;
+    position: relative;
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
+    width: 92%;
 }
 
 section > a {
