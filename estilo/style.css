@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Trends';
+    src: url('../fontes/trends.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --cor1: #010BF5;
     --cor2: #528AF2;
@@ -5,7 +12,8 @@
     --cor4: #5258F2;
     --cor5: #52BDF2;
     --cor6: #B552F2;
-    --cor7: yellow;
+    --cor7: rgb(244, 224, 8);
+    --cor8: darkred;
 }
 
 * {
@@ -19,16 +27,17 @@ body {
 }
 
 header > h1 {
-    background-color: var(--cor1);
-    color: var(--cor6);
+    font-family: 'Trends';
+    background-image: linear-gradient(to right, var(--cor4), var(--cor5), var(--cor6), var(--cor7));
+    color: var(--cor8);
     text-transform: uppercase;
     text-align: center;
     padding: 25px;
 }
 
 header > h2 {
-    background-color: var(--cor4);
-    color: var(--cor1);
+    background-color: var(--cor6);
+    color: var(--cor7);
     text-align: center;
     padding: 15px;
 }
