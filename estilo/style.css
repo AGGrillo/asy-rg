@@ -58,6 +58,11 @@ header > h1 {
     text-shadow: 2px 2px 5px rgba(47, 0, 255, 0.85);
 }
 
+.yeshua-2 {
+    color: var(--cor8);
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.85);
+}
+
 header > h2 {
     background-color: var(--cor2);
     color: white;
@@ -74,23 +79,21 @@ header > h2 {
     text-decoration: underline;
 }
 
-.yeshua-2 {
-    color: var(--cor8);
-}
-
 main {
     background-color: white;
     color: black;
     position: relative;
-    margin: 10px 30px;
+    margin: 10px 20px;
     border: 2px solid black;
     border-radius: 15px;
-    padding: 25px 15px;
+    padding: 25px 20px;
     text-align: center;
 }
 
 main p {
     margin-bottom: 15px;
+    line-height: 25px;
+    margin-bottom: 7px;
 }
 
 .yoh {
@@ -99,7 +102,7 @@ main p {
 }
 
 main > picture > source, main > picture > img {
-    padding-bottom: 13px;
+    padding-bottom: 20px;
 }
 
 main > a {
