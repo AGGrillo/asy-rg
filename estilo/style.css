@@ -32,6 +32,7 @@ header > h1 {
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor-fundo), var(--cor6), var(--cor7), var(--cor8));
     color: var(--cor8);
     text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--cor8);
     text-align: center;
     margin-top: 15px;
     border-bottom: 2px solid black;
@@ -41,6 +42,7 @@ h1.titulo-1 {
     border: 2px solid black;
     border-bottom: 0;
     padding-top: 20px;
+    text-shadow: 3px 3px 8px rgba(139, 0, 0, 0.438);   
 }    
 
 h1.titulo-2 {
@@ -53,6 +55,7 @@ h1.titulo-2 {
 
 header > h1 > span.yeshua-1 {
     color: var(--cor1);
+    text-shadow: 3px 3px 8px rgba(25, 0, 139, 0.39);
 }
 
 header > h2 {
