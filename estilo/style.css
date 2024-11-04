@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Trends';
-    src: url('../fontes/trends.ttf') format('truetype');
+    font-family: 'Anton Regular';
+    src: url('../fontes/anton-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -10,7 +10,7 @@
     --cor2: #3978ed;
     --cor3: #8152F2;
     --cor4: #5258F2;
-    --cor5: #52BDF2;
+    --cor5: #7fc8ed;
     --cor6: #B552F2;
     --cor7: rgb(233, 233, 6);
     --cor8: darkred;
@@ -27,7 +27,7 @@ body {
 }
 
 header > h1 {
-    font-family: 'Trends';
+    font-family: 'Anton Regular';
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5), var(--cor6), var(--cor7), var(--cor8));
     color: var(--cor8);
     text-transform: uppercase;
@@ -36,6 +36,7 @@ header > h1 {
     margin-bottom: 10px;
     border: 2px solid black;
     padding: 25px;
+    width: 93.5vw;
 }
 
 header > h1 > span.yeshua-1 {
@@ -46,7 +47,9 @@ header > h2 {
     background-color: var(--cor1);
     color: white;
     text-align: center;
-    padding: 15px;
+    border: 2px solid black;
+    padding: 25px;
+    width: 93.5vw;
 }
 
 header > h2 > span.subtitulo {
@@ -65,7 +68,7 @@ section {
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
-    width: 92%;
+    width: 88vw;
     text-align: center;
 }
 
@@ -102,4 +105,5 @@ footer > p {
     text-align: center;
     margin-bottom: 15px;
     padding: 5px;
+    width: 97.5vw;
 }
