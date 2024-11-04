@@ -6,11 +6,11 @@
 }
 
 :root {
-    --cor1: #2f34d3;
-    --cor2: #3978ed;
-    --cor3: #8152F2;
-    --cor4: #5258F2;
-    --cor5: #7fc8ed;
+    --cor1: #0d13d3;
+    --cor2: #236aec;
+    --cor3: #8c5ff5;
+    --cor4: #666bf7;
+    --cor-fundo: #7fc8ed;
     --cor6: #B552F2;
     --cor7: rgb(233, 233, 6);
     --cor8: darkred;
@@ -23,20 +23,18 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: var(--cor5);
+    background-color: var(--cor-fundo);
 }
 
 header > h1 {
     font-family: 'Anton Regular';
-    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor5), var(--cor6), var(--cor7), var(--cor8));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor-fundo), var(--cor6), var(--cor7), var(--cor8));
     color: var(--cor8);
     text-transform: uppercase;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
     border: 2px solid black;
-    padding: 25px;
-    width: 93.5vw;
 }
 
 header > h1 > span.yeshua-1 {
@@ -49,7 +47,6 @@ header > h2 {
     text-align: center;
     border: 2px solid black;
     padding: 25px;
-    width: 93.5vw;
 }
 
 header > h2 > span.subtitulo {
@@ -68,7 +65,7 @@ section {
     margin: 10px auto;
     border: 2px solid black;
     padding: 25px;
-    width: 88vw;
+    width: 87vw;
     text-align: center;
 }
 
@@ -76,7 +73,7 @@ section > a {
     color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 5px 7px;
 }
 
 section > a:hover {
@@ -85,7 +82,7 @@ section > a:hover {
     text-decoration: underline;
     font-weight: bold;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 5px 7px;
 }
 
 section > a.elo::after {
@@ -93,7 +90,6 @@ section > a.elo::after {
 }
 
 footer {
-    width: 98.5vw;
     text-align: center;
 }
 
