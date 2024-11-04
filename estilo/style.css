@@ -61,7 +61,7 @@ header > h2 > span.yeshua-2 {
     color: var(--cor7);
 }
 
-section {
+main {
     background-color: white;
     color: black;
     position: relative;
@@ -72,18 +72,18 @@ section {
     text-align: center;
 }
 
-section > picture > source, section > picture > img {
+main > picture > source, section > picture > img {
     padding-bottom: 13px;
 }
 
-section > a {
+main > a {
     color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
     padding: 5px 7px;
 }
 
-section > a:hover {
+main > a:hover {
     background-color: var(--cor8);
     color: white;
     text-decoration: underline;
@@ -92,7 +92,7 @@ section > a:hover {
     padding: 5px 7px;
 }
 
-section > a.elo::after {
+main > a.elo::after {
     content: '\00A0\1F517';
 }
 
