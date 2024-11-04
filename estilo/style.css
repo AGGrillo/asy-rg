@@ -40,6 +40,7 @@ header > h1 {
 h1.titulo-1 {
     border: 2px solid black;
     border-bottom: 0;
+    padding-top: 20px;
 }    
 
 h1.titulo-2 {
@@ -47,6 +48,7 @@ h1.titulo-2 {
     margin-top: 0;
     margin-bottom: 10px;
     border-top: 0;
+    padding-bottom: 20px;
 }
 
 header > h1 > span.yeshua-1 {
@@ -77,12 +79,20 @@ main {
     background-color: white;
     color: black;
     position: relative;
-    margin: 10px auto;
+    margin: 10px 30px;
     border: 2px solid black;
     border-radius: 15px;
-    padding: 25px 0;
+    padding: 25px 15px;
     text-align: center;
-    margin: 10px 30px;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+.yoh {
+    margin: 20px;
+    margin-top: 0;
 }
 
 main > picture > source, main > picture > img {
