@@ -46,18 +46,23 @@ header > h2 {
     background-color: var(--cor2);
     color: white;
     text-align: center;
+    line-height: 37px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 25px;
 }
 
-header > h2 > span.subtitulo {
-    color: var(--cor8);
+header > h2 > span > span {
+    font-size: 5px;
+}
+
+.subtitulo {
+    color: var(--cor7);
     font-weight: bold;
 }
 
-header > h2 > span.yeshua-2 {
-    color: var(--cor7);
+.yeshua-2 {
+    color: var(--cor8);
 }
 
 main {
