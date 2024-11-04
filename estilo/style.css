@@ -72,7 +72,7 @@ main {
     text-align: center;
 }
 
-main > picture > source, section > picture > img {
+main > picture > source, main > picture > img {
     padding-bottom: 13px;
 }
 
