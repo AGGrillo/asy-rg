@@ -68,8 +68,8 @@ section {
     text-align: center;
 }
 
-section > picture > img, section > picture > source {
-    padding-bottom: 10px;
+section > picture > source, section > picture > img {
+    padding-bottom: 13px;
 }
 
 section > a {
