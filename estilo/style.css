@@ -92,11 +92,14 @@ section > a.elo::after {
     content: '\00A0\1F517';
 }
 
+footer {
+    width: 98.5vw;
+    text-align: center;
+}
+
 footer > p {
     background-color: black;
     color: var(--cor7);
-    text-align: center;
     margin-bottom: 15px;
-    padding: 5px;
-    width: 97.5vw;
+    padding: 7px;
 }
