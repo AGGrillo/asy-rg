@@ -64,9 +64,12 @@ section {
     position: relative;
     margin: 10px auto;
     border: 2px solid black;
-    padding: 25px;
-    width: 87vw;
+    padding: 10px;
     text-align: center;
+}
+
+section > picture > img, section > picture > source {
+    padding-bottom: 10px;
 }
 
 section > a {
@@ -97,5 +100,5 @@ footer > p {
     background-color: black;
     color: var(--cor7);
     margin-bottom: 15px;
-    padding: 7px;
+    padding: 4px;
 }
