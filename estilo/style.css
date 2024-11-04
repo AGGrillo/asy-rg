@@ -72,13 +72,6 @@ section {
     text-align: center;
 }
 
-section > img.biblia {
-    width: 360px;
-    height: 250px;
-    margin-left: 15px;
-    margin-bottom: 13px;
-}
-
 section > a {
     color: var(--cor1);
     text-decoration: none;
