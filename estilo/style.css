@@ -28,6 +28,7 @@ body {
 
 header > h1 {
     font-family: 'Anton Regular';
+    font-size: 50px;
     background-image: linear-gradient(to right, var(--cor1), var(--cor2), var(--cor3), var(--cor4), var(--cor-fundo), var(--cor6), var(--cor7), var(--cor8));
     color: var(--cor8);
     text-transform: uppercase;
@@ -35,6 +36,7 @@ header > h1 {
     margin-top: 15px;
     margin-bottom: 10px;
     border: 2px solid black;
+    border-radius: 15px;
 }
 
 header > h1 > span.yeshua-1 {
@@ -46,6 +48,7 @@ header > h2 {
     color: white;
     text-align: center;
     border: 2px solid black;
+    border-radius: 15px;
     padding: 25px;
 }
 
@@ -64,6 +67,7 @@ section {
     position: relative;
     margin: 10px auto;
     border: 2px solid black;
+    border-radius: 15px;
     padding: 10px;
     text-align: center;
 }
@@ -92,13 +96,11 @@ section > a.elo::after {
     content: '\00A0\1F517';
 }
 
-footer {
-    text-align: center;
-}
-
 footer > p {
     background-color: black;
     color: var(--cor7);
     margin-bottom: 15px;
     padding: 4px;
+    text-align: center;
+    border-radius: 15px;
 }
