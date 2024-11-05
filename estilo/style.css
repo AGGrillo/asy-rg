@@ -95,9 +95,9 @@ main {
 }
 
 main p {
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 10px;
-    line-height: 25px;
+    line-height: 27px;
     margin-bottom: 7px;
 }
 
@@ -107,12 +107,13 @@ main p {
     margin-top: 0;
 }
 
-hr {
-    margin-top: 10px;
+main > img {
+    margin-bottom: -7px;
 }
 
-main > picture > source, main > picture > img {
-    padding-bottom: 20px;
+hr {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 main > a {
