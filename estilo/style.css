@@ -98,6 +98,7 @@ main {
     background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: left;
     color: var(--cor7);
     text-align: center;
     padding-top: 67px;
