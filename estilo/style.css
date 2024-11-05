@@ -13,8 +13,8 @@
     --cor5: #7fc8ed;
     --cor6: #B552F2;
     --cor7: rgb(248, 224, 3);
-    --cor8: rgba(139, 5, 5, 0.85);
-    --cor9: rgb(207, 0, 0);
+    --cor8: rgba(94, 1, 1, 0.85);
+    --cor9: rgb(165, 1, 1);
 }
 
 * {
@@ -95,6 +95,7 @@ main {
 }
 
 main p {
+    margin-top: 17px;
     margin-bottom: 15px;
     line-height: 25px;
     margin-bottom: 7px;
