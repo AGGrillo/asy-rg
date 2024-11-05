@@ -12,7 +12,7 @@
     --cor4: #7478d6;
     --cor5: #7fc8ed;
     --cor6: #B552F2;
-    --cor7: rgb(248, 191, 3);
+    --cor7: yellow;
     --cor8: rgba(94, 1, 1, 0.85);
     --cor9: rgb(165, 1, 1);
 }
@@ -63,6 +63,7 @@ header > h1 {
 .yeshua-2 {
     color: var(--cor9);
     text-shadow: 2px 2px 5px var(--cor8);
+    padding-right: 5px;
 }
 
 header > h2 {
@@ -103,6 +104,7 @@ main {
     background-position: center;
     color: var(--cor7);
     text-align: center;
+    border-radius: 10px;
     padding-top: 67px;
     padding-bottom: 0;
     padding-left: 12px;
@@ -137,6 +139,7 @@ main p {
 .loc {
     color: var(--cor1);
     margin: 20px;
+    margin-top: 12px;
 }
 
 .aux {
