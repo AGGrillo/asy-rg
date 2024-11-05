@@ -155,7 +155,7 @@ main > a {
     color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
-    padding: 5px 7px;
+    padding: 5px 6px;
 }
 
 main > a:hover {
