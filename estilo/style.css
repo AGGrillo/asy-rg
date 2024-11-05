@@ -116,7 +116,7 @@ main > a {
 }
 
 main > a:hover {
-    background-color: var(--cor7);
+    background-color: var(--cor4);
     color: var(--cor1);
     text-decoration: underline;
     font-weight: bold;
@@ -125,7 +125,7 @@ main > a:hover {
 }
 
 main > a:active {
-    background-color: var(--cor7);
+    background-color: var(--cor4);
     color: var(--cor8);
     text-decoration: underline;
     font-weight: bold;
