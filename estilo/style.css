@@ -101,12 +101,12 @@ main {
     color: var(--cor7);
     text-align: center;
     padding-top: 67px;
-    padding-bottom: 55px;
+    padding-bottom: 40px;
 }
 
 main > div > p {
     margin: 0;
-    padding: 0;
+    padding: 8px;
     font-size: large;
 }
 
@@ -136,7 +136,7 @@ main p {
 }
 
 .aux {
-    margin-bottom: 10px;
+    margin-bottom: -30px;
 }
 
 main > img {
