@@ -14,7 +14,7 @@
     --cor6: #B552F2;
     --cor7: rgb(248, 224, 3);
     --cor8: rgba(139, 5, 5, 0.85);
-    --cor9: red;
+    --cor9: rgb(250, 30, 30);
 }
 
 * {
@@ -149,6 +149,6 @@ footer > p {
     background-color: black;
     color: var(--cor7);
     margin-bottom: 15px;
-    padding: 4px;
+    padding: 2px;
     text-align: center;
 }
