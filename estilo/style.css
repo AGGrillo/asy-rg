@@ -100,7 +100,6 @@ main {
     background-attachment: fixed;
     color: var(--cor7);
     text-align: center;
-    height: 180px;
     padding-top: 67px;
     padding-bottom: 55px;
 }
@@ -116,7 +115,7 @@ main > div > p {
 }
 
 #div1 {
-    padding-bottom: 360px;
+    padding-bottom: 60px;
 }
 
 main p {
