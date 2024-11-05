@@ -24,7 +24,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--cor5);
-    margin: 0 3px;
 }
 
 header > h1 {
@@ -70,6 +69,7 @@ header > h2 {
     font-size: 20px;
     text-align: center;
     line-height: 37px;
+    margin: 0 4px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
