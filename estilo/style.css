@@ -95,7 +95,7 @@ main {
 }
 
 .explicacao {
-    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg');
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
     color: var(--cor7);
@@ -109,6 +109,14 @@ main > div > p {
     margin: 0;
     padding: 0;
     font-size: large;
+}
+
+.st {
+    margin-bottom: 20px;
+}
+
+#div1 {
+    padding-bottom: 120px;
 }
 
 main p {
