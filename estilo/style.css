@@ -14,6 +14,7 @@
     --cor6: #B552F2;
     --cor7: rgb(248, 224, 3);
     --cor8: rgba(139, 5, 5, 0.85);
+    --cor9: red;
 }
 
 * {
@@ -59,7 +60,7 @@ header > h1 {
 }
 
 .yeshua-2 {
-    color: var(--cor8);
+    color: var(--cor9);
     text-shadow: 2px 2px 5px var(--cor8);
 }
 
