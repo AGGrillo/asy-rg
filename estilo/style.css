@@ -12,7 +12,7 @@
     --cor4: #7478d6;
     --cor5: #7fc8ed;
     --cor6: #B552F2;
-    --cor7: rgb(248, 224, 3);
+    --cor7: rgb(248, 191, 3);
     --cor8: rgba(94, 1, 1, 0.85);
     --cor9: rgb(165, 1, 1);
 }
@@ -30,7 +30,7 @@ body {
 header > h1 {
     font-family: 'Anton Regular';
     font-size: 28px;
-    background-image: linear-gradient(to right, var(--cor1), var(--cor3), var(--cor5), var(--cor7), var(--cor8));
+    background-image: linear-gradient(to right, var(--cor1), var(--cor5), var(--cor7));
     color: var(--cor9);
     text-transform: uppercase;
     text-shadow: 2px 2px 0 var(--cor8);
@@ -48,6 +48,7 @@ header > h1 {
 
 .titulo-2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--cor1);
     margin-top: 0;
     margin-bottom: 10px;
     border-top: 0;
@@ -65,7 +66,7 @@ header > h1 {
 }
 
 header > h2 {
-    background-color: var(--cor3);
+    background-color: var(--cor4);
     color: white;
     font-size: 20px;
     text-align: center;
@@ -77,10 +78,11 @@ header > h2 {
 }
 
 .subtitulo {
-    color: var(--cor7);
+    color: var(--cor2);
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
+    text-shadow: 2px 2px 5px var(--cor1);
 }
 
 main {
@@ -113,7 +115,7 @@ main > div > p {
     font-size: large;
 }
 
-.st {
+.str {
     margin-bottom: 20px;
 }
 
@@ -135,7 +137,6 @@ main p {
 .loc {
     color: var(--cor1);
     margin: 20px;
-    margin-top: 0;
 }
 
 .aux {
@@ -149,6 +150,12 @@ main > img {
 hr {
     margin-top: 10px;
     margin-bottom: 25px;
+}
+
+.links {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor8));
+    color: white;
+    margin: 20px;
 }
 
 main > a {
@@ -183,7 +190,7 @@ main > a:visited {
     padding: 5px 7px;
 }
 
-main > a.elo::after {
+main > a::after {
     content: '\00A0\1F517';
 }
 
