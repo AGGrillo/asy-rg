@@ -107,6 +107,10 @@ main p {
     margin-top: 0;
 }
 
+hr {
+    margin-top: 10px;
+}
+
 main > picture > source, main > picture > img {
     padding-bottom: 20px;
 }
