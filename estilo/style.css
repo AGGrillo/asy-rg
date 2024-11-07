@@ -44,7 +44,15 @@ header > h1 {
     border: 2px solid black;
     border-bottom: 0;
     padding-top: 20px;
-}    
+}
+
+.nacidadede {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: none;
+    margin-top: 0;
+    padding-bottom: 5px;
+    border-bottom: 0;
+}
 
 .titulo-2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -112,6 +120,10 @@ main {
     padding-right: 12px;
 }
 
+.parentese {
+    font-weight: normal;
+}
+
 main > div > p {
     margin: 0;
     padding-bottom: 0;
@@ -128,9 +140,12 @@ main > div > p {
 
 main p {
     margin-top: 15px;
-    margin-bottom: 10px;
     line-height: 27px;
     margin-bottom: 7px;
+}
+
+.aux2 {
+    margin-bottom: 11px;
 }
 
 .hor-line {
@@ -159,7 +174,7 @@ hr {
 .links {
     background-image: linear-gradient(to right, var(--cor1), var(--cor8));
     color: white;
-    margin: 0 0 27px 0;
+    margin: 0 0 21px 0;
     font-weight: bold;
     text-decoration: underline;
 }
