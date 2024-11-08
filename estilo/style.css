@@ -27,7 +27,7 @@ body {
     background-color: var(--cor5);
 }
 
-header > h1 {
+h1 {
     font-family: 'Anton Regular';
     font-size: 28px;
     background-image: linear-gradient(to right, var(--cor2), var(--cor7), var(--cor8));
@@ -40,7 +40,7 @@ header > h1 {
     text-shadow: 2px 2px 5px var(--cor8);
 }
 
-.titulo-1 {
+#titulo-1 {
     border: 2px solid black;
     border-bottom: 0;
     padding-top: 20px;
@@ -75,7 +75,7 @@ header > h1 {
     padding-right: 5px;
 }
 
-header > h2 {
+h2 {
     background-color: var(--cor4);
     color: white;
     font-size: 20px;
@@ -106,25 +106,40 @@ main {
     text-align: center;
 }
 
-.explicacao {
-    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg");
+.explicacao1 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/08/15/06/sky-1891928_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: var(--cor7);
+    color: aquamarine;
     text-align: center;
     border-radius: 10px;
     padding-top: 67px;
     padding-bottom: 0;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
 .parentese {
     font-weight: normal;
 }
 
-main > div > p {
+.explicacao2 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    color: aquamarine;
+    text-align: justify;
+    text-indent: 28px;
+    border-radius: 10px;
+    padding-top: 67px;
+    padding-bottom: 0;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+div > p {
     margin: 0;
     padding-bottom: 0;
     font-size: large;
@@ -134,11 +149,11 @@ main > div > p {
     margin-bottom: 20px;
 }
 
-#div1 {
+.div1 {
     padding-bottom: 50px;
 }
 
-main p {
+p {
     margin-top: 15px;
     line-height: 27px;
     margin-bottom: 7px;
@@ -149,7 +164,8 @@ main p {
 }
 
 .hor-line {
-    margin-top: 23px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .loc {
@@ -162,13 +178,13 @@ main p {
     margin-bottom: 10px;
 }
 
-main > img {
-    margin-bottom: -7px;
+img {
+    margin-bottom: -2px;
 }
 
 hr {
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .links {
@@ -179,14 +195,14 @@ hr {
     text-decoration: underline;
 }
 
-main > a {
+a {
     color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
     padding: 5px 6px;
 }
 
-main > a:hover {
+a:hover {
     background-color: var(--cor4);
     color: var(--cor1);
     text-decoration: underline;
@@ -195,7 +211,7 @@ main > a:hover {
     border-radius: 8px;
 }
 
-main > a:active {
+a:active {
     background-color: var(--cor4);
     color: var(--cor8);
     text-decoration: underline;
@@ -204,14 +220,14 @@ main > a:active {
     border-radius: 8px;
 }
 
-main > a:visited {
+a:visited {
     color: var(--cor8);
     text-decoration: none;
     font-weight: bold;
     padding: 5px 7px;
 }
 
-main > a::after {
+a::after {
     content: '\00A0\1F517';
 }
 
