@@ -33,11 +33,9 @@ h1 {
     background-image: linear-gradient(to right, var(--cor3), var(--cor7), rgb(243, 39, 39));
     color: var(--cor8);
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px var(--cor8);
     text-align: center;
     margin-top: 15px;
     border-bottom: 2px solid black;
-    text-shadow: 2px 2px 5px var(--cor8);
 }
 
 #titulo-1 {
@@ -60,6 +58,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--cor1);
     margin-top: 0;
+    text-shadow: 1px 1px 2px rgba(255, 0, 0, 0.6);
     margin-bottom: 10px;
     border: 2px solid black;
     border-top: 0;
@@ -68,12 +67,12 @@ h1 {
 
 .yeshua-1 {
     color: var(--cor1);
-    text-shadow: 2px 2px 4px var(--cor1);
+    text-shadow: 1px 1px 1px rgba(255, 0, 0, 0.6);
 }
 
 .yeshua-2 {
     color: var(--cor8);
-    text-shadow: 2px 2px 4px var(--cor8);
+    text-shadow: 2px 2px 6px rgba(0, 0, 255, 0.6);
     padding-right: 5px;
 }
 
@@ -94,7 +93,7 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     text-decoration: underline;
-    text-shadow: 2px 2px 5px var(--cor1);
+    text-shadow: 1px 1px 6px rgba(0, 0, 255, 0.6);
 }
 
 main {
@@ -130,7 +129,7 @@ main {
     background-image: url("https://cdn.pixabay.com/photo/2016/10/29/09/53/abstract-1780277_640.png");
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     color: yellow;
     text-align: justify;
     text-indent: 28px;
