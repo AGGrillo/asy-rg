@@ -30,7 +30,7 @@ body {
 h1 {
     font-family: 'Anton Regular';
     font-size: 28px;
-    background-image: linear-gradient(to right, lightblue, var(--cor7), red);
+    background-image: linear-gradient(to right, var(--cor3), var(--cor7), red);
     color: var(--cor8);
     text-transform: uppercase;
     text-shadow: 2px 2px 4px var(--cor8);
